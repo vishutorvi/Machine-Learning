@@ -1,12 +1,10 @@
 # Predicting sentiment from product reviews
 
 The goal of this project is to explore logistic regression and feature engineering with existing GraphLab Create functions.
-In this project i have Implemented 
-        a) Logistic Regression from stratch using gradient descent, log likelihood estimation ( Present in /ImplLogisticRegression)
-    
-        b) Using existing Logistic Regression for making sure My implementation works as good as existing ( Present in /LogisticRegression)
-	
-	c) implement your own logistic regression classifier with L2 regularization ( Present in /LogisticRegressionL2Regularization)
+In this project i have Implemented
+       a) Logistic Regression from stratch using gradient descent, log likelihood estimation ( Present in /ImplLogisticRegression)
+       b) Using existing Logistic Regression for making sure My implementation works as good as existing ( Present in /LogisticRegression)
+       c) implement your own logistic regression classifier with L2 regularization ( Present in /LogisticRegressionL2Regularization)
 
 In this i have used product review data from Amazon.com to predict whether the sentiments about a product (from its reviews) are positive or negative. 
 
