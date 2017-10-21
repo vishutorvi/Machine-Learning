@@ -1,4 +1,4 @@
-# Predicting sentiment from product reviews
+# Project 1: Predicting sentiment from product reviews
 
 The goal of this project is to explore logistic regression and feature engineering with existing GraphLab Create functions.
 In this project i have Implemented
