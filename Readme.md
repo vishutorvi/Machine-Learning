@@ -2,9 +2,11 @@
 
 The goal of this project is to explore logistic regression and feature engineering with existing GraphLab Create functions.
 In this project i have Implemented 
-       a) Logistic Regression from stratch using gradient descent, log likelihood estimation ( Present in /ImplLogisticRegression)
-	   b) Using existing Logistic Regression for making sure My implementation works as good as existing ( Present in /LogisticRegression)
-	   c) implement your own logistic regression classifier with L2 regularization ( Present in /LogisticRegressionL2Regularization)
+        a) Logistic Regression from stratch using gradient descent, log likelihood estimation ( Present in /ImplLogisticRegression)
+    
+        b) Using existing Logistic Regression for making sure My implementation works as good as existing ( Present in /LogisticRegression)
+	
+	c) implement your own logistic regression classifier with L2 regularization ( Present in /LogisticRegressionL2Regularization)
 
 In this i have used product review data from Amazon.com to predict whether the sentiments about a product (from its reviews) are positive or negative. 
 
@@ -47,21 +49,27 @@ Using Existing Logistic Regression classifier the accuracy of predicting sentime
 Using Customized Logistic Regression classifier the accuracy of predicting sentiment was about: 97.24%
 Using Logistic Regression using L2 Regularization follow was the predictions:
 Logistic Regression: 
+
 	L2 penalty = 0
 	train accuracy = 0.742900309247, validation_accuracy = 0.741480720754
 	--------------------------------------------------------------------------------
+	
 	L2 penalty = 4
 	train accuracy = 0.744222279927, validation_accuracy = 0.743067874148
 	--------------------------------------------------------------------------------
+	
 	L2 penalty = 10
 	train accuracy = 0.745379004273, validation_accuracy = 0.744561665577
 	--------------------------------------------------------------------------------
+	
 	L2 penalty = 100
 	train accuracy = 0.73909964354, validation_accuracy = 0.734011763608
 	--------------------------------------------------------------------------------
+	
 	L2 penalty = 1000
 	train accuracy = 0.501711479899, validation_accuracy = 0.498832975446
 	--------------------------------------------------------------------------------
+	
 	L2 penalty = 100000
 	train accuracy = 0.501569840183, validation_accuracy = 0.497805993838
 	--------------------------------------------------------------------------------
